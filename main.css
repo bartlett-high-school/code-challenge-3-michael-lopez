@@ -1,4 +1,16 @@
 /* Put your css here for your table and page styling */
 table {
-  border: none;
+    border-collapse: collapse;
+}
+table, th, td {
+  border: 1px soild black;
+}
+th {
+  font-weight: bold;
+}
+thead td {
+  background-color: red;
+}
+td {
+  background-color: blue;
 }
